@@ -18,4 +18,8 @@
 
 8 : Check if an Array is Sorted
 
-9 : Rotate Array
+9 : Rotate Array (Leetcode - 189)
+
+10 : Count Maximum Consecutive One's in the array (Leetcode - 485)
+
+11 : Move all Zeros to the end of the array  (Leetcode - 283)
