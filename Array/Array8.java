@@ -1,4 +1,4 @@
-//Check if an Array is Sorted
+//8. Check if an Array is Sorted
 
 
 // Input:

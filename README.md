@@ -2,18 +2,20 @@
 
 #######  Array   #######
 
-Array1 :  Print Our Marks increasing by 1
+1 :  Print Our Marks increasing by 1
 
-Array2 : Linear Search 
+2 : Linear Search 
 
-Array3 : Binary Search
+3 : Binary Search
 
-Array4 : Print the total Pairs of Array and count the pairs
+4 : Print the total Pairs of Array and count the pairs
 
-Array5 : Print Maximum Element in array
+5 : Print Maximum Element in array
 
-Array6 : Print Second Maximum Element in array
+6 : Print Second Maximum Element in array
 
-Array7 : Print subarray
+7 : Print subarray
 
-Array8 : Check if an Array is Sorted
+8 : Check if an Array is Sorted
+
+9 : Rotate Array
