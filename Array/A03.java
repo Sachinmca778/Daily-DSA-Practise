@@ -1,6 +1,6 @@
 //3 Binary Search 
 
-public class Array3{
+public class A03{
     public static void main (String[] args){
         int arr [] = {2,3,9,11,13};
         int index = BinarySearch(arr,9);

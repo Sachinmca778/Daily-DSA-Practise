@@ -1,6 +1,6 @@
 //5 Print Maximum Element in array
 
-public class Array5 {
+public class A05 {
     public static void main(String[] args)
     {
         int arr [] = {32,2,4,55,12};

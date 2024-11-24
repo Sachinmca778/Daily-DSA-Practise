@@ -6,7 +6,7 @@
 //Output :True
 
 
-public class Array8 {
+public class A08 {
     public static void main(String[] args)
     {
         int arr[] = {1,3,5,6,7};
