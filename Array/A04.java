@@ -1,6 +1,6 @@
 //4 Print the total Pairs of Array and count the pairs.
 
-public class Array4 {
+public class A04 {
     public static void main(String[] args)
     {
         int arr[] ={4,2,5};

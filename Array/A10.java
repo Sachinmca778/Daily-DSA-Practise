@@ -16,7 +16,7 @@
 
 
 
-public class Array10 {
+public class A10 {
     public static void main(String[] args)
     {
         int arr[] ={1, 0, 1, 1, 0, 1};
