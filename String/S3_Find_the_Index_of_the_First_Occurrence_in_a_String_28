@@ -1,0 +1,47 @@
+//28. Find the Index of the First Occurrence in a String
+//Given a string and a character, find the index of the first occurrence of the character in the string.
+//If the character does not occur in the string, return -1.
+
+// Example 1:
+// Input: haystack = "sadbutsad", needle = "sad"
+// Output: 0
+// Explanation: "sad" occurs at index 0 and 6.
+// The first occurrence is at index 0, so we return 0.
+
+// Example 2:
+// Input: haystack = "leetcode", needle = "leeto"
+// Output: -1
+// Explanation: "leeto" did not occur in "leetcode", so we return -1.
+
+
+
+function findIndex(haystack, needle) {
+
+    for(let i = 0; i <= haystack.length + needle.length -1; i++)
+    {
+        if((haystack.charAt(i)==needle.charAt(0)) && (haystack.substring(i, i+needle.length).toLowerCase() === needle.toLowerCase()))
+        {
+            return i;
+
+        }
+    }
+    return -1;
+    
+}
+
+result = findIndex("sadbutsad","sad");
+console.log(result, "Expected: 0"); // 0
+result = findIndex("leetcode","leeto");
+console.log(result, "Expected: -1"); // -1
+
+
+//Aproach
+// 1. Loop chalao from 0 to length of haystack + length of needle -1 
+// 2.haystack se phla character nikalo aur needle se phla character nikalo woh match karte hai ya nahi check karo
+// 3. agar match karte hai toh needle ki length tak ka substring nikalo aur needle ke saath compare karo
+// 4. agar match karta hai toh index return karo
+// 5. agar kahi bhi match nahi hota toh -1 return karo
+
+// Time Complexity: O(n)
+
+
