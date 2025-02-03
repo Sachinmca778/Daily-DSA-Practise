@@ -1,6 +1,6 @@
 //7 print subarray 
 
-public class A07 {
+public class A07_Print_Subarray {
     public static void main(String args[])
     {
         int arr[] = {2,4,6,8,10};

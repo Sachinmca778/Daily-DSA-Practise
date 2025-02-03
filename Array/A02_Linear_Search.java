@@ -1,6 +1,7 @@
 // 2. Linear Search 
 
-public class A02 {
+
+public class A02_Linear_Search {
     public static void main (String args[])
     {
         int arr[] = { 2,7,3,0,5};
