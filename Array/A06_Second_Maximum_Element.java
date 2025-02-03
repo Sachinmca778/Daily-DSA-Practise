@@ -1,6 +1,6 @@
 //6 Print Second Maximum Element in array
 
-public class A06 {
+public class A06_Second_Maximum_Element {
     public static void main (String[] args)
     {
         int arr[] = {22,5,80,15};

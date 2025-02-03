@@ -26,7 +26,7 @@
 //  Total number of unique elements are 4, i.e[1,2,3,4] and Therefore return 4 after assigning [1,2,3,4] in the beginning of the array.
 
 
-public class A12 {
+public class A12_Remove_Duplicates_Sorted_Array {
     public static void main(String[] args)
     {
         int arr[] = {1,1,2,2,2,3,3};

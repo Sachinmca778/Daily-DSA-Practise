@@ -16,7 +16,7 @@
 
 
 
-public class A10 {
+public class A10_Count_Maximum_Consecutive_Ones_485 {
     public static void main(String[] args)
     {
         int arr[] ={1, 0, 1, 1, 0, 1};

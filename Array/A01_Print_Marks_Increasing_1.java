@@ -1,6 +1,6 @@
 //1. Print Our Marks increasing by 1.
 
-public class A01{
+public class A01_Print_Marks_Increasing_1{
 
     public static void main(String args[]){
         int arr[] = {25,26,10};  //array created 
