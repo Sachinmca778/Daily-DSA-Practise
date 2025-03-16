@@ -72,3 +72,6 @@ public class A13_Longest_Subarray_with_Sum_K {
         return maxcount;
     }
 }
+
+
+//Steps to Solve the Problem:

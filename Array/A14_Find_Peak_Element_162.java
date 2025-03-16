@@ -67,3 +67,12 @@ public class A14_Find_Peak_Element_162 {
         return start;
     }
 }
+
+//Step wise solution:
+// 1.Start and End Set Karo – start = 0 aur end = n-1 rakho (array ke first aur last index).
+// 2.Loop Chalao Jab Tak Start < End – Jab tak start < end hai, tab tak loop chalao.
+// 3.Middle Element Nikalo – mid = start + (end - start) / 2 se middle index find karo.
+// 4.Check Karo Ki Mid Increasing Hai Ya Decreasing
+// 5.Agar nums[mid] < nums[mid+1], iska matlab peak right side pe hai, toh start = mid + 1 karo.
+// Nahi toh peak left side ya mid pe hi hai, toh end = mid karo.
+// Loop End Hone Ke Baad – Jab loop ruk jayega, start index hi peak element hoga, toh return start.
