@@ -11,15 +11,6 @@ public class L2_Insertion {
             this.next = null;
         }
     }
-    public static void main(String[] args) {
-        // Example usage
-        LinkedList list = new LinkedList();
-        list.insertAtEnd(10);
-        list.insertAtEnd(20);
-        list.insertAtEnd(30);
-        list.display(); // Output: 10 -> 20 -> 30 -> null
-        list.size(); // Output: 3
-    }
 
     public static class LinkedList {
         Node head = null;
@@ -34,6 +25,17 @@ public class L2_Insertion {
             }
             tail = temp;
         }
+
+        void insertAtBeginning(int val) {
+            Node temp = new Node(val);
+            if(head == null) {
+                head = temp;
+                tail = temp;
+            } else {
+                temp.next = head;
+                head = temp;
+            }
+        }
         
         void display() {
             Node temp = head;
@@ -41,6 +43,7 @@ public class L2_Insertion {
                 System.out.print(temp.data+" ");
                 temp= temp.next;
             }
+            System.out.println();
         }
         
         void size() {
@@ -54,6 +57,19 @@ public class L2_Insertion {
             System.out.println(count);
         }
         
+    }
+
+    public static void main(String[] args) {
+        // Example usage
+        LinkedList list = new LinkedList();
+        list.insertAtEnd(10);
+        list.insertAtEnd(20);
+        list.display(); // Output: 10 -> 20 -> null
+        list.insertAtBeginning(5);
+        list.display(); // Output: 5 -> 10 -> 20 -> null
+        list.insertAtEnd(30);
+        list.display(); // Output: 5 -> 10 -> 20 -> 30 -> null
+        list.size(); // Output: 4
     }
 }
 
